@@ -1,0 +1,29 @@
+{
+  "name": "viewers-ideas",
+  "version": "1.0.0",
+  "description": "> Simple app for coding Livestreamers to have viewers send in project ideas in real-time using Feathers & Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dohafaridi/viewers-ideas.git"
+  },
+  "keywords": [
+    "Express",
+    "Feathers"
+  ],
+  "author": "Doha Faridi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dohafaridi/viewers-ideas/issues"
+  },
+  "homepage": "https://github.com/dohafaridi/viewers-ideas#readme",
+  "dependencies": {
+    "@feathersjs/express": "^4.3.5",
+    "@feathersjs/feathers": "^4.3.4",
+    "@feathersjs/socketio": "^4.3.5",
+    "moment": "^2.24.0"
+  }
+}
